@@ -99,4 +99,8 @@ docker run --rm -p 8000:8000 -v harvest-data:/app/data harvest-api
 
 The Docker volume preserves `data/harvest.db` between runs. Set `HARVEST_DB` to use a different path.
 
+## Licence
+
+The code is released under the MIT licence (`LICENSE`). `tests/fixtures/catalogue.html` and the screenshot in `docs/` show pages from Books to Scrape, a practice site built for scraping exercises; that content belongs to its owners and is not covered by this licence. Check the terms and robots rules of any site before you point the scraper at it.
+
 **Ammara Noor** · [GitHub](https://github.com/ammaran620-de)
